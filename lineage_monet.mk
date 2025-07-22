@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from monet device
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
+# Camera
+$(call inherit-product-if-exists, device/xiaomi/camera/miuicamera.mk)
+
 # Build Flags
 TARGET_SCREEN_HEIGHT          := 2400
 TARGET_SCREEN_WIDTH           := 1080
