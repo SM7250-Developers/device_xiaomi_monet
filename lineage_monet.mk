@@ -15,9 +15,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
 # Build Flags
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH  := 1080
-TARGET_HAS_UDFPS := true
+TARGET_SCREEN_HEIGHT          := 2400
+TARGET_SCREEN_WIDTH           := 1080
+TARGET_USES_MINI_GAPPS        := true
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+TARGET_HAS_UDFPS              := true
+TARGET_INCLUDE_ACCORD         := false
+BUILD_BCR                     := true
 
 PRODUCT_NAME := lineage_monet
 PRODUCT_DEVICE := monet
@@ -30,9 +34,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="monet-user 12 SKQ1.211006.001 V13.0.2.0.SJIEUXM release-keys" \
     BuildFingerprint=Xiaomi/monet_eea/monet:12/SKQ1.211006.001/V13.0.2.0.SJIEUXM:user/release-keys
-
-# Inherit from dolby
-$(call inherit-product-if-exists, vendor/sony/dolby/sony-dolby-vendor.mk)
-
-# Inherit from Leica camera
-$(call inherit-product-if-exists, vendor/xiaomi/monet-leicacamera/leica-camera-vendor.mk)
