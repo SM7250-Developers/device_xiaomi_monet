@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from monet device
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
+# Build Flags
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH  := 1080
 TARGET_HAS_UDFPS := true
 
 PRODUCT_NAME := lineage_monet
