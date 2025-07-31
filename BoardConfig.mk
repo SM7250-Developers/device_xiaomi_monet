@@ -10,6 +10,7 @@ include device/xiaomi/sm7250-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/monet
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := monet,milito
