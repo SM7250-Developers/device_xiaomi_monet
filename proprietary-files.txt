@@ -247,7 +247,6 @@ vendor/lib/libcamxswprocessalgo.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamxfacialfeatures.so
-vendor/lib64/libcamxfdalgo.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxifestriping.so
 vendor/lib64/libcamximageformatutils.so
@@ -394,24 +393,24 @@ vendor/etc/qdcm_calib_data_xiaomi_38_0a_0a_video_mode_fhd_dsi_panel.xml
 
 # Firmware
 vendor/etc/cs35l41_cal.wav
-vendor/firmware/aw8624_haptic.bin
-vendor/firmware/aw8624_rtp.bin
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/Conf_MultipleTest.ini
-vendor/firmware/cs35l41-dsp1-diag.wmfw
+vendor/firmware/aw8624_haptic.bin
+vendor/firmware/aw8624_rtp.bin
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-diag-z.bin
-vendor/firmware/cs35l41-dsp1-diag-z.wmfw
 vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin
 vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot.bin
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
+vendor/firmware/cs35l41-dsp1-diag-z.bin
+vendor/firmware/cs35l41-dsp1-diag-z.wmfw
+vendor/firmware/cs35l41-dsp1-diag.wmfw
+vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin
+vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin
 vendor/firmware/cs35l41-dsp1-spk-prot-dt-handsfree.txt
 vendor/firmware/cs35l41-dsp1-spk-prot-dt-music.txt
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin
 vendor/firmware/cs35l41-dsp1-spk-prot-revb2.bin
 vendor/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw
+vendor/firmware/cs35l41-dsp1-spk-prot.bin
+vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
 vendor/firmware/vangogh_tele_lc898128_ois.coeff
 vendor/firmware/vangogh_tele_lc898128_ois.mem
 vendor/firmware/vangogh_tele_lc898128_ois.prog
@@ -441,11 +440,6 @@ vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
-vendor/lib64/libsns_device_mode_stub.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/libssccalapi.so
@@ -498,7 +492,6 @@ vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/config/tsl2560.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
@@ -512,8 +505,8 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-per-camera.conf
 vendor/etc/thermal-per-normal.conf
+vendor/etc/thermal-phone.conf
+vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
